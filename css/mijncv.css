@@ -1,0 +1,28 @@
+body{
+font-family: 'Libre Franklin', sans-serif;
+background-color: rgb(238, 238, 238);
+}
+nav a{
+display: inline-block;
+height: 22px;
+width: 525px;
+font-size: 20px;
+color: white;
+background-color: black;
+padding: 12px;
+text-align: center;
+margin-left: 60px;
+}
+nav a:hover{
+background-color: orangered;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px black;
+}
+h1{
+color: orangered;
+margin-left: 60px;
+}
+ul{
+list-style-type: square;
+margin-left: 120px;
+}

@@ -1,0 +1,55 @@
+body{
+font-family: 'Libre Franklin', sans-serif;
+background-color: rgb(238, 238, 238);
+}
+nav a{
+display: inline-block;
+height: 22px;
+width: 525px;
+font-size: 20px;
+color: white;
+background-color: black;
+padding: 12px;
+text-align: center;
+margin-left: 60px;
+}
+nav a:hover{
+background-color: orangered;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px black;
+}
+div{
+width: 1775px;
+height: 550px;
+background-color: black;
+margin-top: 60px;
+margin-right: 60px;
+margin-left: 60px;
+background-image: url('../afbeeldingen/Lootens Anja.jpg');
+background-size: 550px;
+background-repeat: no-repeat;
+}
+.p1{
+font-size: 25px;
+padding: 15px;
+margin: 60px 60px 60px 610px;
+border-style: solid;
+border-width: 3px;
+border-color: orangered;
+color: white;
+}
+footer{
+width: 1775px;
+height: 30px;
+background-image: url('../afbeeldingen/copyrightlogo.png');
+background-size: 25px;
+background-repeat: no-repeat;
+background-color: orangered;
+margin-left: 300px;
+margin-right: 60px;
+margin: 60px 60px 60px 60px;
+}
+.p2{
+font-size: 15px;
+margin-left: 40px;
+}

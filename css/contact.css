@@ -1,0 +1,51 @@
+body{
+font-family: 'Libre Franklin', sans-serif;
+background-color: rgb(238, 238, 238);
+}
+nav a{
+display: inline-block;
+height: 22px;
+width: 525px;
+font-size: 20px;
+color: white;
+background-color: black;
+padding: 12px;
+text-align: center;
+margin-left: 60px;
+}
+nav a:hover{
+background-color: orangered;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px black;
+}
+form{
+width: 540px;
+padding: 5px 5px 20px 5px;
+margin-left: 60px;
+margin-top: 60px;
+margin-bottom: 60px;
+font-size: 20px;
+text-align: center;
+background-color: black;
+color: white;
+}
+input[type="text"], input[type="email"], textarea, button{
+text-align: center;
+display: block;
+margin: 10px;
+width: 520px;
+height: 50px;
+box-sizing: border-box;
+box-shadow: inset 2px 2px 5px black;
+}
+textarea{
+height: 200px;
+background-color: orangered;
+color: black;
+box-shadow: inset 2px 2px 5px black;
+}
+button:active{
+background-color: orangered;
+color: white;
+box-shadow: inset 2px 2px 5px black;
+}
